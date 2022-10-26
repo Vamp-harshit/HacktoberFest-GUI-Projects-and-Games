@@ -23,7 +23,7 @@ class Tic_Tac_Toe():
 
         self.initialize_board()
         self.player_X_turns = True
-        self.board_status = np.zeros(shape=(3, 3))
+        self.board_status = np.zeros(shape=(4, 4))
 
         self.player_X_starts = True
         self.reset_board = False
@@ -172,7 +172,7 @@ class Tic_Tac_Toe():
         if self.O_wins:
             print('O wins')
         if self.tie:
-            print('Its a tie')
+            print('It's a tie !')
 
         return gameover
 
