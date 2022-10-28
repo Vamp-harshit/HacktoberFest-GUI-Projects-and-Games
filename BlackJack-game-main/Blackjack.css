@@ -1,0 +1,36 @@
+p{
+    
+    font-size: 35px;
+}
+
+body{
+    background-image: url(https://media.istockphoto.com/vectors/vector-realistic-isolated-green-poker-table-for-decoration-vector-id1299608766?k=20&m=1299608766&s=612x612&w=0&h=ZwlBIc1B5noT2uVZG9yighu1FLc5NoeWrk3KloKsdKM=);
+    background-size: cover;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: aliceblue;
+    font-weight: bold;
+    text-align: center  ;
+   
+
+}
+h1{
+    font-size: 50px;
+    color:goldenrod
+}
+#message{
+    font-style: italic;
+}
+ 
+button{
+    cursor: pointer;
+    font-size: 40px;
+    border-radius: 10px;
+    width: 340px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background-color: goldenrod;
+    color: #016f32;
+    font-weight: bold;
+    border: none;
+    margin-bottom: 8px;
+}
